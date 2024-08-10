@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website Design </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+     <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Kudumala Devi Priya</h1>
+            <p>And I am a front-end web developer.</p>
+            <div class="social-media">
+                <a href="#" ><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-gmail' ></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt' ></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-camera' ></i>
+                    <h3>Photographer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette' ></i>
+                    <h3>Web Designer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-video-recording' ></i>
+                    <h3>Videographer</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+        
+
+     </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            
+            <p>I am Kudumala Devi Priya a motivated and detail-oriented computer science engineering student
+                seeking entry-level opportunities to apply
+                theoretical knowledge in practical settings and
+                contribute to innovative
+                projects. My skills are
+                    <pre>C and C++ programming languages</pre>
+                    <pre>python</pre>
+                    <pre>Data structures</pre>
+                    <pre>Object oriented programming using c++ language</pre>
+                    <pre>HTML, CSS and Javascript</pre>
+                    <pre>SQL</pre>
+                
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+     <section class="services" id="services">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Student course registration, using c language</h3>
+                <p>The project done in c language using file
+                    handling and linked list in Data structures to help
+                     the educational institues to store student details 
+                     at the time student registration</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Music player app</h3>
+                <p>This involves creating a user interface to display
+                    music tracks, buttons to play/pause etc. This project is done using html, css and javascript language</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Resume builder</h3>
+                <p>This project involves creating a web application
+                    where users can input their information and
+                    generate a formatted resume document. This project is done using html, css and javascript</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>EMI calculator</h3>
+                <p>This project is done using object oriented
+                    programming using c++ language</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+     </section>
+     <section class="education" id="education">
+     <div class="testimonial-container">
+        <h2 class="heading">Education</h2>
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAYFBMVEX///8BAQEAAADy8vJFRUWgoKDS0tLV1dX8/Pz5+fnu7u7Ly8u6urro6OhxcXHg4OCwsLCWlpZ9fX1QUFA+Pj4bGxteXl4sLCwUFBRnZ2czMzOMjIwkJCSoqKjCwsIPDw87Dj8PAAAD30lEQVR4nO2ai3ayOhCFNdxvgQQFAcH3f8tDLlwVC5LAv9aZr122C23Z3ZOZTMZeLgAAAAAAAAAAAAAAAAAAAAAAAP8KblTXkcu+OVtJjxfiO0J3HHpnK2EwX/wAo5Yre0A48M/W1GJXJpd0ZZ8Ms7JPFeQ55C4FyQeh7E6cs+LoWxm3phUyQoYxsw4OI1tIcSKjJg1Cwzf8IotjEh+qKixysbavi7Dn86I5okK09/Ab/BazL8Jw42svXg41pUfzjw+XxPoyqc4wugF5rTVp4hZ6EFtPOhoku6JlS5YuiyfQS0M6xkm62aOxXdywlKejovXlhUU5Wki/OCVl5YWa3dFo6HuF/NUwBm2Myy6/PIfe+n1kr1O9Xze6YxcKrFKZSTO/Siv4xaOIpA/ej6y1ZKVTnV+v1Io2+mUUskVS7NLELoSNTaJc38GljJwGp5imEjvG9uVuhOry7s0kGm5zaaIrfb35tcspJinPmKI9RcFET2V2ifav3r0/GyayfGK+9lZ0oelhkkjBNsNE8f5gp1/sp58kULPxCVEtno1v6LcugUu6YV7GlajqRbX44eqec24SDVU2LmNRF9YwZCXfC9eVIy6pTTbFHd5IlO/wL3FtrvVraKLaPjrSIspGZR3zNdHui9fJ8eqDU9zNVLSbblyXSOG5eSKqTSDZpRl29bXa8ycrm1dtLylY6jqaRIl7FaGIhE27dJwJ4slGhTNRWMhRgy5RSNxwuGNToL6qdoHjuhupm5cRcVmbU+PYBDw2boifQxh5icQJX3hGMImwXqeunSEp4XbwVYy6+dRN7mxtLkwt1O3UYJdZyzIhBjCpJdO/vr1lwSFOyb//mSUiHWNKYx5QI8mek9p6oFMjw/CwhyzvRAc61aUjZrMCzy76ZDvVqd6uByEP9LFuneLUUJ6+9TSHO7WGU5z66+Dwf3NK/P7NTmkVhX44nXY/paef8qKgxml5X0iz9wsyKe9liutg6zTjG9ENVZMjiG8n1boJkdigq8RWPuwMESrd+bnI8xNx3hqvsLlLrM4nvoahsHthXVzz6Sm/qfIlv9j1vGp0vTsT8UPbkuRu+Dhzig8QNb5LStjNHst/cjQfZYtTlcLj1Dtt7jFV9bfXxDQfDYtQThUOyz8SiOCY318VE+lW+0j0v52GZe/9camP8MQcubT0vyHqep0B5M/XRq1bROtS6rBky4YeKwaU/s9DzE24Wbef/Bm/4wiGk2R6tpaeaiiHd4WNxz6GMwD6XqqOw70kr36kkR6SWKuI6EOczpN/6b993CisqGUfk+wAAAAAAAAAAAAAAAAAAAAAAAAq+Q9EiC1aONPSSAAAAABJRU5ErkJggg==" alt="">
+                        <h3>Bachelor of Technology</h3>
+                        <p style="font-size: 2rem;">2022-2026 </p>
+                        <pre style="font-size: 2rem;">SRM University</pre>
+                        <pre style="font-size: 2rem;">Amaravathi</pre>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="https://cdn3.vectorstock.com/i/1000x1000/88/22/school-building-black-icon-concept-vector-29978822.jpg" alt="">
+                        <h3>Intermediate</h3>
+                        <p style="font-size: 2rem;">2020-2022</p>
+                        <pre style="font-size: 2rem;">Narayana Junior college</pre>
+                        <pre style="font-size: 2rem;">Nellore</pre>
+
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="https://cdn3.vectorstock.com/i/1000x1000/88/22/school-building-black-icon-concept-vector-29978822.jpg" alt="">
+                        <h3>SSC</h3>
+                        <p style="font-size: 2rem;">2019-2020</p>
+                        <pre style="font-size: 2rem;">Dr Kishore's Ratnam Model school</pre>
+                        <pre style="font-size: 2rem;">Nellore</pre>
+
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+     </div>
+     </section>
+     <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+     </section>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
